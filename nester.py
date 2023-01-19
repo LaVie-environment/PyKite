@@ -1,9 +1,11 @@
 """This is the "nester.py" module, and it provides one function called print_lol() which prints lists that may or may not include nested lists."""
 
 #!/usr/bin/python3
+"""
 movies = ["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91,
 ["Graham Chapman", ["Michael Palin", "John Cleese",
 "Terry Gilliam", "Eric Idle", "Terry Jones"]]]
+"""
 
 def print_lol(the_list):
 
@@ -14,4 +16,4 @@ def print_lol(the_list):
         else:
             print(each_item)
         
-print_lol(movies)
+#print_lol(movies)
