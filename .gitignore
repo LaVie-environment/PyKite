@@ -1,0 +1,4 @@
+#ignoring this file and folders in the current directory
+/MANIFEST
+build/
+dist/
